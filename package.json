@@ -21,12 +21,28 @@
     "lint": "eslint",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "shayanfpg9",
   "license": "MIT",
-  "description": "",
+  "description": "acsii-art library for nodeJS",
   "devDependencies": {
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
     "globals": "^15.11.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayanfpg9/acsii-art.git"
+  },
+  "keywords": [
+    "acsii",
+    "acsii-art",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/shayanfpg9/acsii-art/issues"
+  },
+  "homepage": "https://github.com/shayanfpg9/acsii-art#readme"
 }

@@ -54,4 +54,5 @@ module.exports = {
     log,
     hex: hexToRgb,
     name: nameToRgb,
+    rgbToAnsi
 };

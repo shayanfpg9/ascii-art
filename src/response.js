@@ -17,5 +17,5 @@ const error = (text) => {
 }
 
 module.exports = {
-    log, success, warning, info, error
+    normal: log, success, warning, info, error
 }

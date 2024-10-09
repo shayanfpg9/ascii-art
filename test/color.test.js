@@ -1,6 +1,6 @@
 /* eslint no-console: 0 */
 
-const { log, hex: hexToRgb, name: nameToRgb } = require('../src/color'); // Adjust the path based on your file structure
+const { log, hex: hexToRgb, name: nameToRgb } = require('../src/color');
 
 describe('Color Utility Functions', () => {
     test('converts hex color to RGB', () => {

@@ -11,8 +11,8 @@ describe('Color Utility Functions', () => {
     });
 
     test('converts color name to RGB', () => {
-        expect(nameToRgb('red')).toEqual({ r: 255, g: 0, b: 0 });
-        expect(nameToRgb('green')).toEqual({ r: 0, g: 255, b: 0 });
+        expect(nameToRgb('red')).toEqual({ r: 139, g: 0, b: 0 });
+        expect(nameToRgb('green')).toEqual({ r: 0, g: 100, b: 0 });
         expect(nameToRgb('blue')).toEqual({ r: 0, g: 0, b: 255 });
     });
 

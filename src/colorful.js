@@ -1,3 +1,6 @@
+/* eslint no-undef: 0 */
+
+
 const sharp = require("sharp");
 const { join } = require("path");
 const log = require("./response");

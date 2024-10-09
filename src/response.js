@@ -14,6 +14,7 @@ const info = (text) => {
 
 const error = (text) => {
     log("ERROR: " + text, name("red"))
+    throw text
 }
 
 module.exports = {

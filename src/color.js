@@ -1,26 +1,16 @@
 /* eslint no-console: 0 */
 
 const colorName = {
-    red: "#FF0000",
-    green: "#00FF00",
-    blue: "#0000FF",
-    yellow: "#FFFF00",
-    cyan: "#00FFFF",
-    magenta: "#FF00FF",
-    black: "#000000",
-    white: "#FFFFFF",
-    gray: "#808080",
-    lightGray: "#D3D3D3",
-    darkGray: "#A9A9A9",
-    orange: "#FFA500",
-    purple: "#800080",
-    pink: "#FFC0CB",
-    brown: "#A52A2A",
-    teal: "#008080",
-    lime: "#00FF00",
-    navy: "#000080",
-    olive: "#808000",
-    silver: "#C0C0C0",
+    red: "#8B0000",        // Dark Red
+    green: "#006400",      // Dark Green
+    cyan: "#00FFFF",       // Cyan
+    yellow: "#FFFF00",     // Yellow
+    blue: "#0000FF",       // Blue
+    orange: "#FFA500",     // Orange
+    purple: "#800080",     // Purple
+    pink: "#FFC0CB",       // Pink
+    teal: "#008080",       // Teal
+    gray: "#808080",       // Gray
 };
 
 function hexToRgb(hex) {

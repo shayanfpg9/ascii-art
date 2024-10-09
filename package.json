@@ -1,5 +1,5 @@
 {
-  "name": "acsii-art",
+  "name": "ascii-art",
   "packageManager": "yarn@4.3.1",
   "version": "1.0.0",
   "main": "index.js",
@@ -23,7 +23,7 @@
   },
   "author": "shayanfpg9",
   "license": "MIT",
-  "description": "acsii-art library for nodeJS",
+  "description": "ascii-art library for nodeJS",
   "devDependencies": {
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
@@ -34,15 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shayanfpg9/acsii-art.git"
+    "url": "git+https://github.com/shayanfpg9/ascii-art.git"
   },
   "keywords": [
-    "acsii",
-    "acsii-art",
+    "ascii",
+    "ascii-art",
     "nodejs"
   ],
   "bugs": {
-    "url": "https://github.com/shayanfpg9/acsii-art/issues"
+    "url": "https://github.com/shayanfpg9/ascii-art/issues"
   },
-  "homepage": "https://github.com/shayanfpg9/acsii-art#readme"
+  "homepage": "https://github.com/shayanfpg9/ascii-art#readme"
 }

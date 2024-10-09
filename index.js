@@ -15,10 +15,10 @@ async function init() {
 
     const { inputType } = await inquirer.prompt(firstQuestion);
 
-    const { AcsiiCharList } = await inquirer.prompt([
+    const { AsciiCharList } = await inquirer.prompt([
         {
             type: 'input',
-            name: 'AcsiiCharList',
+            name: 'AsciiCharList',
             default: "0123456789",
             message: 'What is your custom character list?',
         }
@@ -100,9 +100,9 @@ async function init() {
 
     // Final output
     success('\nSummary of your inputs:');
-    normal({ inputType, AcsiiCharList, ...answers, ...saveAnswer });
+    normal({ inputType, AsciiCharList, ...answers, ...saveAnswer });
 
-    global.asciiCharacters = AcsiiCharList
+    global.asciiCharacters = AsciiCharList
 
     let data = ""
 

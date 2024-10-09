@@ -17,7 +17,8 @@
     "yargs": "^17.7.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint"
   },
   "author": "",
   "license": "MIT",
